@@ -55,11 +55,11 @@ export default function Home() {
         <h2 className="text-3xl font-bold text-center mb-6">Testimonios</h2>
         <div className="flex flex-col md:flex-row justify-around">
           <div className="bg-gray-100 p-4 rounded-lg shadow-md text-center">
-            <p className="italic">"Los cursos cambiaron mi vida!"</p>
+            {/* <p className="italic">"Los cursos cambiaron mi vida!"</p> */}
             <p className="font-bold">- Juan Pérez</p>
           </div>
           <div className="bg-gray-100 p-4 rounded-lg shadow-md text-center mt-4 md:mt-0">
-            <p className="italic">"Excelente formación y apoyo."</p>
+            {/* <p className="italic">"Excelente formación y apoyo."</p> */}
             <p className="font-bold">- María López</p>
           </div>
         </div>
