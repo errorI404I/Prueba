@@ -3,7 +3,7 @@
 import React from 'react';
 
 const ImageUpload = () => {
-    const handleImageUpload = (event) => {
+    const handleImageUpload = () => {
         // Lógica para subir la imagen a Cloudinary
     };
 

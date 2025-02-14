@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 
 const Blog = () => {
-    const [posts, setPosts] = useState([]);
+    const [posts] = useState([]);
 
     useEffect(() => {
         const fetchPosts = async () => {
