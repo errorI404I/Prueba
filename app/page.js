@@ -10,11 +10,14 @@ export default function Home() {
       <nav className="bg-white shadow-md fixed w-full py-4 px-6 flex justify-between">
         <h2 className="text-green-600 font-bold text-xl">Centro de Entrenamiento</h2>
         <div>
+          <Link href="/" className="mx-4 text-gray-700">Inicio</Link>
           <Link href="/about" className="mx-4 text-gray-700">Quiénes Somos</Link>
           <Link href="/cursos" className="mx-4 text-gray-700">Cursos</Link>
           <Link href="/certificaciones" className="mx-4 text-gray-700">Certificaciones</Link>
           <Link href="/blog" className="mx-4 text-gray-700">Blog</Link>
+          <Link href="/precios" className="mx-4 text-gray-700">Precios</Link>
           <Link href="/registro" className="mx-4 bg-green-500 text-white px-4 py-2 rounded-lg">Registrarse</Link>
+          <Link href="/login" className="mx-4 text-gray-700">Iniciar Sesión</Link>
         </div>
       </nav>
 
